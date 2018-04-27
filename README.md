@@ -1,9 +1,8 @@
-# Boilerplate for REST Microservice in Go
+# Sample Core
 [![Build Status](https://travis-ci.org/goboilerplates/core.svg?branch=master)](https://travis-ci.org/goboilerplates/core)
 [![codecov](https://codecov.io/gh/goboilerplates/core/branch/master/graph/badge.svg)](https://codecov.io/gh/goboilerplates/core)
 [![Go Report Card](https://goreportcard.com/badge/github.com/goboilerplates/core)](https://goreportcard.com/report/github.com/goboilerplates/core)
 [![GoDoc](https://godoc.org/github.com/goboilerplates/core?status.svg)](https://godoc.org/github.com/goboilerplates/core)
-[![](https://images.microbadger.com/badges/image/goboilerplates/core.svg)](https://microbadger.com/images/goboilerplates/core)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/goboilerplates/core/blob/master/LICENSE)
 
 ## Installation

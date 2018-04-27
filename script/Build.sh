@@ -1,0 +1,1 @@
+go build -o core.out ./test

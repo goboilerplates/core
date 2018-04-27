@@ -3,7 +3,7 @@ package core_test
 import (
 	"testing"
 
-	"github.com/goboilerplates/micro-rest/core"
+	"github.com/goboilerplates/core"
 	"github.com/stretchr/testify/assert"
 )
 

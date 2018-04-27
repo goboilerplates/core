@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/bmizerany/assert"
-	"github.com/goboilerplates/micro-rest/core"
+	"github.com/goboilerplates/core"
 )
 
 // TestNameLower .

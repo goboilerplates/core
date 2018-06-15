@@ -4,6 +4,7 @@ import "strings"
 
 // SampleEntity is the sample entity struct.
 type SampleEntity struct {
+	ID   string
 	Name string
 }
 

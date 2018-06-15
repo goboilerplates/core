@@ -13,4 +13,8 @@ func TestNameLower(test *testing.T) {
 
 	assert.NotEqual(test, "AAAA", sampleEntity.NameLower())
 	assert.Equal(test, "aaaa", sampleEntity.NameLower())
+
+	sampleEntity = core.SampleEntity{ID: "BBBBBB", Name: "AAAA"}
+	assert.NotEqual(test, "AAAA", sampleEntity.ID)
+	assert.Equal(test, "BBBBBB", sampleEntity.ID)
 }

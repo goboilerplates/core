@@ -4,8 +4,8 @@ import "strings"
 
 // SampleEntity is the sample entity struct.
 type SampleEntity struct {
-	ID   string
-	Name string
+	ID   string `json:"id"`
+	Name string `json:"name"`
 }
 
 // NameLower gets lowercase name.

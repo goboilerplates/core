@@ -1,13 +1,13 @@
 package core
 
-import "time"
+import uuid "github.com/satori/go.uuid"
 
 // CreateDefaultGetSamples .
 func CreateDefaultGetSamples(names ...string) GetSamplesInteractor {
 	var samples []*SampleEntity
 	for _, item := range names {
 		samples = append(samples, &SampleEntity{
-			ID:   time.Now().Format(time.RFC850),
+			ID:   uuid.NewV4().String(),
 			Name: item,
 		})
 	}

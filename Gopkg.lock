@@ -15,12 +15,6 @@
 
 [[projects]]
   branch = "master"
-  name = "github.com/goboilerplates/micro-rest"
-  packages = ["core"]
-  revision = "37a9c33b6b6759eec56f3bd6ecaa2809377cd5be"
-
-[[projects]]
-  branch = "master"
   name = "github.com/kr/pretty"
   packages = ["."]
   revision = "cfb55aafdaf3ec08f0db22699ab822c50091b1c4"
@@ -38,6 +32,12 @@
   version = "v1.0.0"
 
 [[projects]]
+  name = "github.com/satori/go.uuid"
+  packages = ["."]
+  revision = "f58768cc1a7a7e77a3bd49e98cdd21419399b6a3"
+  version = "v1.2.0"
+
+[[projects]]
   name = "github.com/stretchr/testify"
   packages = ["assert"]
   revision = "12b6f73e6084dad08a7c6e575284b177ecafbc71"
@@ -46,6 +46,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "0ea9e40682c82f4625fa618f971b2b5bef269303ebe115326c6d2c4f58552b41"
+  inputs-digest = "5a2028502c378be8d91a0af948e2fdf786cfcf782d83385879e0d4b3a23dde51"
   solver-name = "gps-cdcl"
   solver-version = 1
